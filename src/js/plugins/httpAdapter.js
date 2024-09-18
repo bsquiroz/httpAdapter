@@ -3,10 +3,7 @@ export class HttpAdapter {
     const { data } = await axios(url);
     return data;
   }
-
   async post(url, data) {}
-
   async remove(url) {}
-
   async update(url, data) {}
 }

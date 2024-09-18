@@ -1,4 +1,4 @@
-import { HttpAdapter } from "./pluggins/httpAdapter.js";
+import { HttpAdapter } from "./plugins/httpAdapter.js";
 
 const getCharactersAdapter = async () => {
   const htppAdapter = new HttpAdapter();
